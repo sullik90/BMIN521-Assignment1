@@ -1,0 +1,29 @@
+,tweet_id,user_id,text,created_at,label,Drug Name Extracted,Drug Name Normalized,prediction,drugs_predicted,,error_type,,,
+99,8.71E+17,2718746888,"&lt; don't let the bad guys get away with hurtin' girls. I had to do something, Mama.""Taking a deep, calming breath, Alli sighed, stopping &gt;",6/2/2017 16:27,0,,,1,[['alli']],,1,9,0.346153846,error 3= identifies one drug as 2 drugs (e.g folic acid)
+212,8.88E+17,8.14E+17,Major Lazer feat. Travis Scott &amp; Camila Cabello // Know No Better,7/19/2017 20:47,0,,,1,[['camila']],,1,,,error 1=identifying a name as a drug (people have same names as drug)
+260,8.93E+17,218569600,"There are so many theories about Azor Ahai, but this new 'Game of Thrones' fan theory will blow your mind. Could [… https://t.co/cvDyFnh8rx",8/2/2017 19:15,0,,,1,[['azor']],,1,,,error 2=identifying non-drug words as drugs
+367,8.86E+17,533380626,#Porn #Gallery Amazing breasted Alli poses in the bath https://t.co/MzXqhJH5NS,7/16/2017 2:00,0,,,1,[['alli']],,1,,,
+415,6.16E+17,1127006551,I wish someone would take me to zmax or Carowinds or the gun range or paintballing. I wanna do something with adrenaline involved.,7/2/2015 0:12,0,,,1,[['zmax']],,1,,,
+683,6.84E+17,457737240,"@brodyburk @DougLesmerises @BillLandis25 We're forgetting about Jalyn Holmes as well. A lot of pure, young talent.",1/3/2016 20:08,0,,,1,[['jalyn']],,1,,,
+738,9.03E+17,128585431,Guest Review: Remedial Rocket Science by Susanna Nix https://t.co/4OMrLX6MLU https://t.co/E4JWvZVycq,8/31/2017 7:02,0,,,1,[['nix']],,1,,,
+806,7.26E+17,85547291,The Plague of Small Presence Syndrome (SPS) https://t.co/KsCqQn0Bho via @HuffPostUKTech https://t.co/chnlVJSsUl,4/29/2016 18:30,0,,,1,[['sps']],,1,,,
+905,7.80E+17,622951828,Funny some people are Saying Opana is bigger than Johnny... Lol,9/26/2016 17:45,0,,,1,[['opana']],,1,,,
+194,8.42E+17,1269975001,I know many of you have no sign of spring out there today! 😢 But hopefully this little free print will help you... https://t.co/DyEBFYsdNB,3/14/2017 21:56,0,,,1,[['today']],,2,8,0.307692308,
+231,5.08E+17,51618617,Legs are itchy today..Don't see any bug bites though..Time to rub on the Aveeno.,9/4/2014 21:44,0,,,1,[['today']],,2,,,drug has the same name as a place 
+314,3.29E+17,232157095,Heart Crystal Silver Nail Ring from @bornprettystore review is up on my blog today http://t.co/DwRr70eZ8U #fblogger #bblogger #nails #bps,4/30/2013 15:57,0,,,1,[['today']],,2,,,
+646,5.09E+17,268556840,"Good luck today, and keep the streak going!! @biavelez7 @BethanyHan @tteach12 @cam_daniels11 @mikamooner @srhenley13 @fhockeyfan124 @JRosy20",9/7/2014 12:44,0,,,1,[['today']],,2,,,error 4= extracts drugs from a non drug string 
+666,7.00E+17,20009913,I'm exhausted &amp; migrainey but sleeping isn't helping. I napped while Fenris did today but I'm still wiped.,2/17/2016 2:30,0,,,1,[['today']],,2,,,
+742,8.13E+17,615869763,Anyone know if Walmart or Meijers is open today? Need to buy some storage containers🙄,12/25/2016 17:57,0,,,1,[['today']],,2,,,error 5= identifies drug in incorrect context
+783,8.03E+17,2691812864,RT @chaewonho: I can't believe last night I was on buzzfeed and today I'm on allkpop what the fuSKX LMAO IM https://t.co/TDWiT9E3E4,11/27/2016 2:33,0,,,1,[['today']],,2,,,
+908,9.00E+17,356603010,i'm gonna need copious amounts of drugs after today,8/22/2017 22:52,0,,,1,[['today']],,2,,,error 6=false positives that should be true positives 
+52,9.07E+17,7.83E+17,Folic acid may mitigate autism risk from pesticideshttps://t.co/1KKE4iDQnO,9/10/2017 2:43,0,,,1,"[['folic', 'acid']]",,3,4,0.153846154,
+285,8.42E+17,2352973992,RT @PreguntaMama: A2. Folic acid helps you recover more quickly from any illness  #AvoHappiness  #gno,3/15/2017 0:18,0,,,1,"[['folic', 'acid']]",,3,,,
+640,8.73E+17,4764786272,What you need to know about the link between Vitamin D &amp; psoriatic arthritis https://t.co/L2EO3t6i8D,6/7/2017 21:22,0,,,1,"[['vitamin', 'd']]",,3,,,
+862,8.42E+17,47617390,"@boreallady Instead of Vitamin A while TTC, get a peptide serum. I recently ordered The Ordinary's Buffet to try.",3/14/2017 5:03,0,,,1,"[['vitamin', 'a']]",,3,,,
+494,8.27E+17,291443457,"RT @JoelOsteen: God wants you to be an example of His goodness. So everywhere you go, you don’t have to say anything; your life is a testim…",2/1/2017 1:36,0,,,1,[['testim']],,4,2,0.076923077,
+670,8.30E+17,2218769562,"I liked a @YouTube video from @azaeproduction https://t.co/hKteLAqF2O Montana Of 300 x TO3 x $avage x No Fatigue ""FGE CYPHER Pt 3""",2/10/2017 4:04,0,,,1,[['avage']],,4,,,
+537,5.69E+17,271692483,Taylar &amp; Tavist messages is full of screenshots... They play to much 😂,2/20/2015 20:45,0,,,1,[['tavist']],,5,2,0.076923077,
+664,9.00E+17,260066978,"Lyrica, nobody wants A1.... #LHHH",8/22/2017 0:38,0,,,1,[['lyrica']],,5,,,
+406,8.42E+17,361488635,The Xanax Wives Club #DrugMovies @midnight,3/15/2017 3:52,0,,,1,[['xanax']],,6,3,0.115384615,
+449,9.07E+17,166986355,@saneashouses @SMHoenig I thought it was the safer bet vs singulair and had asked the ent about the side effects - she waved me off (like a lot of docs lol),9/11/2017 2:21,0,,,1,[['singulair']],,6,,,
+517,6.96E+17,531667401,RT @Funny_Truth: Bananas can reduce the swelling and irritation of mosquito bites and help with nicotine withdrawal.,2/5/2016 16:14,0,,,1,[['nicotine']],,6,,,
